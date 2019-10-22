@@ -1,7 +1,13 @@
 body {
-	background-color: turquoise;
+	background-color: #1E90FF;
 }
 
-h1,p {
-	color: indigo;
+h1 {
+	color: gold;
+	font-family: Times New Roman;
+}
+
+h3,p {
+	font-family: Helvetica;
+	color:#7FFFD4;
 }
