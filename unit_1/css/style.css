@@ -3,11 +3,16 @@ body {
 }
 
 h1 {
-	color: gold;
-	font-family: Times New Roman;
+	color: blue;
+	font-family: Arial;
+	text-align: center;
 }
 
 h3,p {
 	font-family: Helvetica;
 	color:#7FFFD4;
+}
+
+#paragraph {
+	font-style: italic375615;
 }
