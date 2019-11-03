@@ -40,6 +40,11 @@ ul,section {
 	line-height: 1.5;
 	padding: 20px;
 }
+footer {
+	font-style: italic;
+	text-align: center;
+	line-height: 3;
+}
 .center {
 	display: block;
 	margin-left: auto;
@@ -57,8 +62,4 @@ ul,section {
 }
 #listheader {
 	text-decoration: underline;
-}
-#NBC {
-	font-style: italic;
-	text-align: center;
 }
