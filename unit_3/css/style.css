@@ -43,7 +43,8 @@ ul,section {
 footer {
 	font-style: italic;
 	text-align: center;
-	line-height: 3;
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
 .center {
 	display: block;
