@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -7,12 +9,12 @@ nav {
 	font-weight: bold;
 	font-size: 1em;
 	font-family: Helvetica;
-	line-height: 4em;
+	line-height: 3.5em;
 	padding-left: 1em;
 	text-align: left;
 }
 nav a {
-	color:black;
+	color: black;
 	margin-right: 1em;
 }
 body {
@@ -23,26 +25,35 @@ body {
 }
 h1 {
 	color: gold;
-	font-family: "Times New Roman";
-	padding-bottom: 0.25em;
+	font-family: 'Merriweather', serif;
+	padding-bottom: 0.35em;
+	padding-top: 0.25em;
+	font-size: 2.5em;
 }
 h2 {
 	color: gold;
-	font-style: italic;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.06em;
 }
 h3,p {
 	font-weight: normal;
-	padding-left: 10em;
-	padding-right: 10em;
+	padding-left: 8em;
+	padding-right: 8em;
 }
-h2,h3,h4,p,footer{
-	font-family: Helvetica;
+h3{
+	font-style: italic;
+	font-size: 1.25em;
+	letter-spacing: 0.025em;
+}
+h3,h4,p,footer{
+	font-family: Helvetica, sans-serif;
 }
 h3,h4,p{
 	color:#7FFFD4;
 }
 h4{
 	font-size: 1.5em;
+	line-height: 2.5em;
 }
 footer {
 	font-style: italic;
@@ -56,5 +67,5 @@ footer {
 	width: 25%;
 }
 #kbell {
-	width: 40%;
+	width: 35%;
 }
