@@ -152,7 +152,7 @@ footer {
 	nav a {
 		display: block;
 		text-align: center;
-		margin: 0;
+		padding: 1em;
 	}
 	.images {
 /*		height: 50%;
