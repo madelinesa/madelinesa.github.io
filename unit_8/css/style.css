@@ -146,13 +146,13 @@ footer {
 	h1,h2,h3,p,h4,h5 {
 		text-align: center;
 		font-size: 1em;
-		margin: 0:;
+		margin: 0;
 		padding: 0;
 	}
 	nav a {
 		display: block;
 		text-align: center;
-		margin: 0:;
+		margin: 0;
 	}
 	.images {
 /*		height: 50%;
