@@ -173,6 +173,7 @@ footer {
 	.column {
 		float: none;
 		width: auto;
+		padding: 0;
 	}
 		nav a {
 		display: block;
