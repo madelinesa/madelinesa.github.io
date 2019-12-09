@@ -170,6 +170,22 @@ footer {
 	body {
 		font-size: 14px:;
 	}
+	.column {
+		float: none;
+		width: auto;
+	}
+		nav a {
+		display: block;
+		text-align: center;
+		margin: 0:;
+	}
+	.images {
+/*		height: 50%;
+*/		width: 320px;
+		display: block;
+		margin: 0;
+		padding: 0;
+			}
 	#kbell,#janet {
 		display: none;
 	}
