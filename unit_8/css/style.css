@@ -177,7 +177,7 @@ footer {
 		nav a {
 		display: block;
 		text-align: center;
-		margin: 0;
+		margin: 1em;
 	}
 	.images {
 		width:	100%;
