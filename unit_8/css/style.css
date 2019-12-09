@@ -136,9 +136,6 @@ footer {
 }
 	
 @media only screen and (max-width: 768px) {
-	/*body {
-		font-size: 14px :;	
-	}*/
 	.column {
 		float: none;
 		width: auto;
@@ -152,11 +149,9 @@ footer {
 	nav a {
 		display: block;
 		text-align: center;
-	/*	padding: 1em;*/
 	}
 	.images {
-/*		height: 50%;
-*/		width: 320px;
+		width: 320px;
 		display: block;
 		margin: 0;
 		padding: 0;
@@ -177,8 +172,6 @@ footer {
 		nav a {
 		display: block;
 		text-align: center;
-/*		margin: 1em;
-		padding: 1em;*/
 	}
 	.images {
 		width:	100%;
