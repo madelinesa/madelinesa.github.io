@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+nav {
+	background-color: #D3D3D3;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: Helvetica;
+	line-height: 3.5em;
+	text-align: left;
+	padding-left: 1em;
+}
+nav a { 
+	color: black;
+	margin-right: 1em;
+	text-decoration: none;
+	display: block;
+	float: left;
+}
+nav a:hover {
+	color: #C71585;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+header {
+	padding: 1em;
+	padding-bottom: 0;
+}
+body {
+	background-color: #1E90FF;
+	font-size:16px;
+	line-height: 2em;
+	text-align: center;
+}
+main {
+	padding: 1em;
+}
+section {
+	clear: both;
+/*	background-color: white;
+*/	
+	padding: 0em 3em 1em 1.5em;
+}
+h1 {
+	color: gold;
+	font-family: 'Merriweather', serif;
+	padding-bottom: 0.35em;
+	padding-top: 0.25em;
+	font-size: 2.5em;
+}
+h2 {
+	font-size: 2em;
+	color: gold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.06em;
+	padding-bottom: .5em;
+}
+h3{
+	font-style: italic;
+	font-size: 1.5em;
+	letter-spacing: 0.025em;
+	padding: 0 6em;
+}
+h3,h4,div,p,footer{
+	font-family: Helvetica, sans-serif;
+}
+h3,h4,div,p{
+	color:#7FFFD4;
+}
+h4{
+	font-size: 1.5em;
+	text-align: left;
+	line-height: 2.5em;
+	padding-left: 3em;
+}
+h5{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+p {
+	font-size: 1.5em;
+	text-align: left;
+	line-height: 2;
+}
+h6 {
+	color: black;
+}
+footer {
+	font-style: italic;
+	clear: both;
+	background-color: #D3D3D3;
+}
+
+.images {
+	height: 95%; 
+}
+.column {
+	float: left;
+	width: : 25%;
+  	height: 25em;
+	padding: 1.5em 1.5em 0em 1.5em;
+	margin: 1em;
+}
+/*#column1 {
+  background-color: #AC54FF;
+}
+
+#column2 {
+  background-color: #5485FF;
+}
+
+#column3 {
+  background-color: #47FFF2;
+}*/
+.images:hover {
+	border: 0.75em solid #C71585;
+}
+
+#kbell {
+	width: 35%;
+}
+#janet {
+	float: left;
+	padding-left: 3em;
+	padding-right: 5em;
+	width: 25%;
+}
+	
+@media only screen and (max-width: 768px) {
+	/*body {
+		font-size: 14px :;	
+	}*/
+	.column {
+		float: none;
+		width: auto;
+	}
+	h1,h2,h3,p,h4,h5 {
+		text-align: center;
+		font-size: 1em;
+		margin: 0:;
+		padding: 0;
+	}
+	nav a {
+		display: block;
+		text-align: center;
+		margin: 0:;
+	}
+	.images {
+/*		height: 50%;
+*/		width: 320px;
+		display: block;
+		margin: 0;
+		padding: 0;
+			}
+	#janet {
+		height: 100%;
+	}		
+}
+
+@media only screen and (max-width: 480px) {
+	body {
+		font-size: 14px:;
+	}
+	#kbell,#janet {
+		display: none;
+	}
+}
