@@ -180,7 +180,7 @@ footer {
 		margin: 0;
 	}
 	.images {
-		width:	320px;
+		width:	100%;
 	}
 	#kbell,#janet {
 		display: none;
