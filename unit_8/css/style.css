@@ -173,20 +173,15 @@ footer {
 	.column {
 		float: none;
 		width: auto;
-		padding: 0;
 	}
 		nav a {
 		display: block;
 		text-align: center;
 		margin: 0:;
 	}
-/*	.images {
-		height: 50%;
-		width: 95%;
-		display: block;
-		margin: 0;
-		padding: 0;
-			}*/
+	img {
+		width:	230px;
+	}
 	#kbell,#janet {
 		display: none;
 	}
